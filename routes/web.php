@@ -20,7 +20,6 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-
     //dd(auth()->user());
     return view('welcome');
 })->name('home');

@@ -30,7 +30,7 @@ class LoginController extends Controller
             return back()->with('status', 'invalid credintials');
         } 
 
-        return redirect()->route('home');
+        return redirect(route('home'));
 
     }
 
